@@ -14,7 +14,10 @@
             }
             html{
                 overflow-x: hidden;
-                /*overflow-y: hidden;*/
+                overflow-y: hidden;
+                @media (max-width: 900px) {
+                    overflow-y: scroll;
+                }
             }
             body{
                 margin: 0;
@@ -163,6 +166,7 @@
             }
 
             #room_content_bottom{
+                width: 45%;
                 padding: 15px;
                 display: flex;
                 justify-content: space-between; 
@@ -234,7 +238,7 @@
                 </section>
             </div>
             <div id="room_content_bottom" class="bottom">
-                <section style="width: 45%;">
+                <section>
                     <p> 
                         website designed and developed <br>by sofia paz and <a href="https://marcopagan.com/" target="_blank"> marco pagan</a>
                     </p>
@@ -247,10 +251,10 @@
                 <section style="width: 100%;">
                     <h2>Some Kind of Place</h2>
                 </section>
-                <section style="width: 25%;">
+                <section style="width: 35%;">
                     <h3>film</h3>
                 </section>
-                <section style="width: 50%;">
+                <section style="width: 25%;">
                     <h3>2024</h3>
                 </section>
             </div>
@@ -260,10 +264,10 @@
                 <section style="width: 100%;">
                     <h2>Some Kind of Place</h2>
                 </section>
-                <section style="width: 25%;">
+                <section style="width: 35%;">
                     <h3>writing and editorial design</h3>
                 </section>
-                <section style="width: 50%;">
+                <section style="width: 25%;">
                     <h3>2024</h3>
                 </section>
             </div>
@@ -273,10 +277,10 @@
                 <section style="width: 100%;">
                     <h2>We think about our century, we wonder what to do with our evening</h2>
                 </section>
-                <section style="width: 25%;">
+                <section style="width: 35%;">
                     <h3>editorial design</h3>
                 </section>
-                <section style="width: 50%;">
+                <section style="width: 25%;">
                     <h3>2021</h3>
                 </section>
             </div>
