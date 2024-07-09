@@ -5,38 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>sofia paz</title>
-        <link rel="icon" type="image/x-icon" href="favicon/Vector 2.png">
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
         <style>
-            @font-face {
-                font-family: Bradford;
-                src: url(fonts/bradford/BradfordLL-Book\ -\ cópia.otf);
-            }
             @font-face {
                 font-family: Garamond;
                 src: url(fonts/EBGaramond/EBGaramond08-Regular.otf);
             }
-
             html{
-                min-height: 100%;
                 overflow-x: hidden;
-                overflow-y: hidden;
+                /*overflow-y: hidden;*/
             }
             body{
                 margin: 0;
-                min-height: 100vh;
-                min-height: 100dvh;
-                font-family:garamond;
-                letter-spacing: -0.01em;
-                background-color: white;
-                
+                height: 100vh;
             }
             main{
-                width: 100%;
-                height: 97vh;
-                height: calc(97dvh + 4px);
+                height: calc(100dvh - 30px);
                 display: flex;
                 flex-wrap: wrap;
+                @media (max-width: 900px) {
+                    display: block;
+                }
             }
             h1, p{
                 font-weight: normal;
@@ -66,7 +56,6 @@
                 margin-block-start: 0;
                 margin-block-end: 0;
             }
-
             p {
                 font-weight: normal;
                 font-size:11px;
@@ -81,63 +70,89 @@
                 width: 50%;
                 height: 50%;
                 position: relative;
+                background-color: white;
                 box-sizing: border-box;
                 -moz-box-sizing: border-box;
                 -webkit-box-sizing: border-box;
+                border-right: 1px solid white;
+                border-bottom: 1px solid white;
+                @media (max-width: 900px) {
+                    width: 100%;
+                    border-right: none;
+                }
             }
             .roomA{
                 width: 50%;
                 height: 50%;
+                position: relative;
+                background-color: blueviolet;
+                background-image:    url(images/bach.jpg);
+                background-size:     cover;
+                background-repeat:   no-repeat;
+                background-position: center center;
                 box-sizing: border-box;
                 -moz-box-sizing: border-box;
                 -webkit-box-sizing: border-box;
                 border-left: 1px solid white;
-                /*box-shadow: 0 0 5px white;*/
-                position: relative;
-                img{
+                border-top: 1px solid white;
+                @media (max-width: 900px) {
                     width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+                    border-left: none;
                 }
             }
             .roomB{
                 width: 50%;
                 height: 50%;
+                position: relative;
+                background-color: blue;
+                background-image:    url(images/tese.jpeg);
+                background-size:     cover;
+                background-repeat:   no-repeat;
+                background-position: center center;
                 box-sizing: border-box;
                 -moz-box-sizing: border-box;
                 -webkit-box-sizing: border-box;
+                border-right: 1px solid white;
                 border-top: 1px solid white;
-                position: relative;
-                img{
+                @media (max-width: 900px) {
                     width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+                    border-right: none;
                 }
             }
             .roomC{
                 width: 50%;
                 height: 50%;
+                position: relative;
+                background-color: yellow;
+                background-image:    url(images/project.jpg);
+                background-size:     cover;
+                background-repeat:   no-repeat;
+                background-position: center center;
                 box-sizing: border-box;
                 -moz-box-sizing: border-box;
                 -webkit-box-sizing: border-box;
                 border-left: 1px solid white;
                 border-bottom: 1px solid white;
-                /*box-shadow: 0 0 5px white;*/
-                position: relative;
-                img{
+                @media (max-width: 900px) {
                     width: 100%;
-                    height: 100%;
-                    object-fit: cover;
+                    border-left: none;
                 }
             }
             #room_content{
                 padding: 15px;
                 display: flex;
                 justify-content: space-between; 
+                @media (max-width: 900px) {
+                    display: block;
+                    h1 {
+                     padding-bottom: 15px;
+                    }
+                }
             }
 
             .room_projects{
-                width:100%;
+                max-width: 90%;
+                width: 90%;
                 position:absolute;
                 color: white;
                 mix-blend-mode: difference;
@@ -161,19 +176,19 @@
 
             a:hover{
                 font-style: italic;
-                /*text-shadow: 0 0 1px yellow;*/
             }
             .sparkles{mix-blend-mode: difference;}
-
             .marquee {
+                height: 15px;
                 background-color: white;
-                border: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                border-top: 1px solid #000000;
                 color: #ffffff;
                 font-family: var(--font-heading);
                 font-feature-settings: unset;
                 font-size: 11px;
                 overflow: hidden;
-                padding: 7.5px 0px;
+                padding: 7.5px;
             }
             .marquee--long { 
                 font-size: 14px;
@@ -202,7 +217,7 @@
         </style>
     </head>
     <body>
-        <div class="marquee marquee--long alignfull" style="--tw: 80ch; --ad: 12s; width: 100%; max-height: 12px;" >
+        <div id="marquee" class="marquee marquee--long alignfull" style="--tw: 80ch; --ad: 12s;">
             <span>website under development</span>
         </div>
     <main>
@@ -239,7 +254,6 @@
                     <h3>2024</h3>
                 </section>
             </div>
-            <img src="images/project/DSC01231.jpg" alt="somekindofplace" style="position: relative; z-index: -1;">
         </div>
         <div id="room3" class="roomB">
             <div class="room_projects">
@@ -253,7 +267,6 @@
                     <h3>2024</h3>
                 </section>
             </div>
-            <img src="images/tese/DSC01493.jpeg" alt="placeholder">
         </div>
         <div id="room2" class="roomA">
             <div class="room_projects">
@@ -267,9 +280,8 @@
                     <h3>2021</h3>
                 </section>
             </div>
-            <img src="images/bach/5BFF3DCA-A0B4-4313-91F0-71D3ED7F97BC.jpg" alt="placeholder">
         </div>
     </main>
-        <script type="text/javascript" src="sparkle.js"></script>
+    <script type="text/javascript" src="sparkle.js"></script>
     </body>
 </html>
