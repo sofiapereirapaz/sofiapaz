@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>sofia paz</title>
+        <link rel="icon" type="image/x-icon" href="favicon/Vector 2.png">
+
+        <style>
+            @font-face {
+                font-family: Bradford;
+                src: url(fonts/bradford/BradfordLL-Book\ -\ cópia.otf);
+            }
+            @font-face {
+                font-family: Garamond;
+                src: url(fonts/EBGaramond/EBGaramond08-Regular.otf);
+            }
+
+            html{
+                min-height: 100%;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+            body{
+                margin: 0;
+                min-height: 100vh;
+                min-height: 100dvh;
+                font-family:garamond;
+                letter-spacing: -0.01em;
+                background-color: white;
+                
+            }
+            main{
+                width: 100%;
+                height: 97vh;
+                height: calc(97dvh + 4px);
+                display: flex;
+                flex-wrap: wrap;
+            }
+            h1, p{
+                font-weight: normal;
+                font-size:10px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                color: black;
+                font-family:Arial;
+            }
+
+            h1 {
+                font-weight:600;
+                font-size: 15px;
+            }
+
+            h2 {
+                text-transform: uppercase;
+                font-weight: normal;
+                font-size:9.5px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                font-family:Arial;
+            }
+            h3 {
+                font-weight: normal;
+                font-size:10px;
+                margin-block-start: 0;
+                margin-block-end: 0;
+            }
+
+            p {
+                font-weight: normal;
+                font-size:11px;
+                font-family:garamond;
+
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            .room{
+                width: 50%;
+                height: 50%;
+                position: relative;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+            .roomA{
+                width: 50%;
+                height: 50%;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                border-left: 1px solid white;
+                /*box-shadow: 0 0 5px white;*/
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .roomB{
+                width: 50%;
+                height: 50%;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                border-top: 1px solid white;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .roomC{
+                width: 50%;
+                height: 50%;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                border-left: 1px solid white;
+                border-bottom: 1px solid white;
+                /*box-shadow: 0 0 5px white;*/
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            #room_content{
+                padding: 15px;
+                display: flex;
+                justify-content: space-between; 
+            }
+
+            .room_projects{
+                width:100%;
+                position:absolute;
+                color: white;
+                mix-blend-mode: difference;
+                display: flex;
+                justify-content: space-between;
+                bottom: 0;
+                padding: 15px 15px;
+            }
+
+            #room_content_bottom{
+                padding: 15px;
+                display: flex;
+                justify-content: space-between; 
+            }
+            .bottom{
+                width: 45%;
+                position: absolute;
+                bottom: 0;
+                padding: 0 15px;
+            }
+
+            a:hover{
+                font-style: italic;
+                text-shadow: 0 0 1px yellow;
+            }
+            .sparkles{mix-blend-mode: difference;}
+
+            .marquee {
+                background-color: white;
+                border: 1px solid #000000;
+                color: #ffffff;
+                font-family: var(--font-heading);
+                font-feature-settings: unset;
+                font-size: 11px;
+                overflow: hidden;
+                padding: 7.5px;
+            }
+            .marquee--long { 
+                font-size: 14px;
+            }
+            .marquee span {   
+                display: inline-block;
+                white-space: nowrap;
+                color: black;
+                width: var(--tw);
+                text-shadow: var(--tw) 0 currentColor, 
+                    calc(var(--tw) * 2) 0 currentColor, 
+                    calc(var(--tw) * 3) 0 currentColor,
+                    calc(var(--tw) * 4) 0 currentColor,
+                    calc(var(--tw) * 5) 0 currentColor,
+                    calc(var(--tw) * 6) 0 currentColor,
+                    calc(var(--tw) * 7) 0 currentColor;
+                will-change: transform;
+                animation: marquee var(--ad) linear infinite;
+                animation-play-state: running;
+            }
+
+            @keyframes marquee {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-100%); }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="marquee marquee--long alignfull" style="--tw: 80ch; --ad: 12s; width: 100%; max-height: 12px;" >
+            <span>website under development</span>
+        </div>
+    <main>
+        <div id="room4" class="room">
+            <div id="room_content">
+                <section style="width: 55%;">
+                    <h1>SOFIA PAZ (Lisbon, 2000) is a visual designer focused on graphic and editorial design, with a special interest in writing and documentary photography and film.</h1>
+                </section>
+                <section style="width: 33%;">
+                    <h1>
+                        <a href="mailto:sofiapereirapaz@gmail.com">sofiapereirapaz@gmail.com</a><br>
+                        <a href="https://www.instagram.com/paz.zip/" target="_blank">paz.zip</a>
+                    </h1>
+                </section>
+            </div>
+            <div id="room_content_bottom" class="bottom">
+                <section style="width: 45%;">
+                    <p> 
+                        website designed and developed <br>by sofia paz and <a href="https://marcopagan.com/" target="_blank"> marco pagan</a>
+                    </p>
+                    </script>
+                </section>
+            </div>
+        </div>
+        <div id="room1" class="roomC">
+            <div class="room_projects">
+                <section style="width: 100%;">
+                    <h2>Some Kind of Place</h2>
+                </section>
+                <section style="width: 25%;">
+                    <h3>film</h3>
+                </section>
+                <section style="width: 50%;">
+                    <h3>2024</h3>
+                </section>
+            </div>
+            <img src="images/project/DSC01231.png" alt="somekindofplace" style="position: relative; z-index: -1;">
+        </div>
+        <div id="room3" class="roomB">
+            <div class="room_projects">
+                <section style="width: 100%;">
+                    <h2>Some Kind of Place</h2>
+                </section>
+                <section style="width: 25%;">
+                    <h3>writing and editorial design</h3>
+                </section>
+                <section style="width: 50%;">
+                    <h3>2024</h3>
+                </section>
+            </div>
+            <img src="images/tese/DSC01493.jpeg" alt="placeholder">
+        </div>
+        <div id="room2" class="roomA">
+            <div class="room_projects">
+                <section style="width: 100%;">
+                    <h2>We think about our century, we wonder what to do with our evening</h2>
+                </section>
+                <section style="width: 25%;">
+                    <h3>editorial design</h3>
+                </section>
+                <section style="width: 50%;">
+                    <h3>2021</h3>
+                </section>
+            </div>
+            <img src="images/bach/5BFF3DCA-A0B4-4313-91F0-71D3ED7F97BC.png" alt="placeholder">
+        </div>
+    </main>
+        <script type="text/javascript" src="sparkle.js"></script>
+    </body>
+</html>
