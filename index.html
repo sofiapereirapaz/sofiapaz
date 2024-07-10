@@ -15,7 +15,7 @@
             html{
                 overflow-x: hidden;
                 overflow-y: hidden;
-                @media (max-width: 900px) {
+                @media (max-width: 800px) {
                     overflow-y: scroll;
                 }
             }
@@ -27,7 +27,7 @@
                 height: calc(100dvh - 30px);
                 display: flex;
                 flex-wrap: wrap;
-                @media (max-width: 900px) {
+                @media (max-width: 800px) {
                     display: block;
                 }
             }
@@ -79,7 +79,7 @@
                 -webkit-box-sizing: border-box;
                 border-right: 1px solid white;
                 border-bottom: 1px solid white;
-                @media (max-width: 900px) {
+                @media (max-width: 800px) {
                     width: 100%;
                     border-right: none;
                 }
@@ -145,7 +145,7 @@
                 padding: 15px;
                 display: flex;
                 justify-content: space-between; 
-                @media (max-width: 900px) {
+                @media (max-width: 800px) {
                     display: block;
                     h1 {
                      padding-bottom: 15px;
@@ -181,7 +181,11 @@
             a:hover{
                 font-style: italic;
             }
-            .sparkles{mix-blend-mode: difference;}
+            .sparkles{
+                @media (max-width: 800px) {
+                    display: none;
+                }
+            }
             .marquee {
                 height: 15px;
                 background-color: white;
