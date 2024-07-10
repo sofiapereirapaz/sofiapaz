@@ -44,6 +44,9 @@
             h1 {
                 font-weight:600;
                 font-size: 15px;
+                @media (max-width: 220px) { 
+                    font-size: 10px;
+                }
             }
 
             h2 {
@@ -69,6 +72,7 @@
             a{
                 text-decoration: none;
                 color: black;
+
             }
             .room{
                 width: 50%;
@@ -150,13 +154,27 @@
                 padding: 15px;
                 display: flex;
                 justify-content: space-between; 
-                @media (max-width: 1024px) {
+                @media (max-width: 1175px) {
                     display: block;
                     h1 {
                      padding-bottom: 20px;
                     }
                 }
             }
+
+            .room_content_1{
+                width: 55%;
+                @media (max-width: 1024px) {
+                    width: 70%;
+                }
+            }
+            .room_content_2{
+                width: 33%;
+                @media (max-width: 1024px) {
+                    width: 33%;
+                }
+            }
+
 
             .room_projects{
                 max-width: 90%;
@@ -168,9 +186,9 @@
                 justify-content: space-between;
                 bottom: 0;
                 padding: 15px 15px;
-                /*@media (max-width: 300px) {
+                @media (max-width: 300px) {
                     width: 80%;
-                }*/
+                }
             }
 
             #room_content_bottom{
@@ -238,10 +256,10 @@
     <main>
         <div id="room4" class="room">
             <div id="room_content">
-                <section style="width: 55%;">
+                <section class="room_content_1">
                     <h1>SOFIA PAZ (Lisbon, 2000) is a visual designer focused on graphic and editorial design, with a special interest in writing and documentary photography and film.</h1>
                 </section>
-                <section style="width: 33%;">
+                <section class="room_content_2">
                     <h1>
                         <a href="mailto:sofiapereirapaz@gmail.com">sofiapereirapaz@gmail.com</a><br>
                         <a href="https://www.instagram.com/paz.zip/" target="_blank">paz.zip</a>
