@@ -1,0 +1,206 @@
+/* type */
+@font-face {
+  font-family: "EBGaramond";
+  src: url(fonts/EBGaramond/EBGaramond08-Regular.otf);
+}
+
+@font-face {
+  font-family: "UnicaM";
+  src: url(fonts/Unica77LL/Unica77LL-Medium.otf);
+}
+
+@font-face {
+  font-family: "UnicaR";
+  src: url(fonts/Unica77LL/Unica77LL-Regular.otf);
+}
+
+::selection {
+  color: grey;
+  background: yellow;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  @media (max-width: 700px) {
+    overflow-y: scroll;
+  }
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "UnicaR";
+  font-size: 12px;
+  color: black;
+  * {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  @media (max-width: 700px) {
+    display: block;
+    width: 100%;
+  }
+}
+
+h1 {
+  font-family: "UnicaM";
+  font-size: 24px;
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.links {
+  font-size: 14px;
+  @media (max-width: 700px) {
+    padding-left: 8px;
+  }
+}
+
+h4 {
+  font-family: "EBGaramond";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+/*shuffle*/
+#shuffle {
+  margin-left: 10%;
+  font-size: 18px;
+  font-family: Garamond;
+}
+
+#shuffle:hover {
+  font-style: unset;
+  -webkit-text-stroke: 1px black;
+  /*color:#99cc30;
+    background-color: yellow;*/
+}
+
+/* utilities */
+.col-33 {
+  width: 33%;
+  @media (max-width: 1024px) {
+    width: 50%;
+  }
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-100 {
+  width: 100%;
+  @media (max-width: 1024px) {
+    width: 20%;
+  }
+}
+
+/* section division */
+.room {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.room_info {
+  max-width: 90%;
+  width: 90%;
+  position: absolute;
+  color: white;
+  mix-blend-mode: difference;
+  display: flex;
+  gap: 8px;
+  padding: 16px;
+  @media (max-width: 1024px) {
+    width: 80%;
+  }
+}
+
+#roomUL {
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  @media (max-width: 700px) {
+    display: none;
+  }
+}
+
+#roomUR {
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  @media (max-width: 700px) {
+    display: none;
+  }
+}
+
+#roomDL {
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  @media (max-width: 700px) {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+}
+
+#roomDR {
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  @media (max-width: 700px) {
+    width: 100%;
+    border: none;
+  }
+}
+
+.row_info {
+  padding: 0 16px;
+  display: flex;
+}
+
+.row_top {
+  padding-top: 16px;
+}
+
+.row_bottom {
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 16px;
+  @media (max-width: 700px) {
+    width: 80%;
+  }
+}
+
+/* sparkles part */
+.sparkles {
+  width: 100%;
+}
