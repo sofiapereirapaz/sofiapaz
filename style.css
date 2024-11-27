@@ -2,6 +2,7 @@
 @font-face {
   font-family: "Bradford";
   src: url(fonts/BradfordLL/BradfordLL-Regular.otf);
+  font-weight: 400;
 }
 
 @font-face {
@@ -52,11 +53,13 @@ main {
 
 h1 {
   font-family: "Bradford";
+  font-weight: 400;
   font-size: 14px;
   line-height: 15px;
   max-width: 100%;
   @media (max-width: 1111px) {
     font-size: 16px;
+    line-height: 17px;
   }
 }
 
@@ -78,6 +81,8 @@ h3 {
   line-height: 15px;
   @media (max-width: 1111px) {
   width: 100%;
+  font-size: 16px;
+  line-height: 17px;
   padding-top: 16px;
   }
 }
