@@ -115,7 +115,7 @@ a:hover {
   font-style: italic;
   content: url(images/profile.jpg);
   display:inline;
-  max-width: 25%;
+  max-width: 20%;
 }
 
 /*shuffle*/
