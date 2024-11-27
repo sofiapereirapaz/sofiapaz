@@ -13,7 +13,7 @@ let projects = [
         "title": "Some Kind of Place",
         "year": "2024",
         "type": "writing and editorial design",
-        "covers": ["skopb_3.jpg", "skopb_1.jpg", "skopb_7.jpg"]
+        "covers": ["skopb_1.jpg", "skopb_2.jpg", "skopb_3.jpg"]
     },
 
     {
@@ -27,21 +27,28 @@ let projects = [
         "title": "Some Kind of Place",
         "year": "2024",
         "type": "video essay",
-        "covers": ["skopv_1.jpg", "skopv_4.jpg", "skopv_3.jpg"]
+        "covers": ["skopv_1.jpg", "skopv_2.jpg", "skopv_3.jpg", "skopv_4.jpg"]
     },
 
     {
         "title": "The Parametric Truth Lab Reviews",
         "year": "2024",
         "type": "poster design proposal",
-        "covers": ["tptlr_7.jpg", "tptlr_3.jpg"]
+        "covers": ["tptlr_1.jpg", "tptlr_2.jpg"]
     },
 
     {
         "title": "The Perfect Condition to Rot",
         "year": "2023",
         "type": "video essay and poster design",
-        "covers": ["tpctr_1.jpg", "tpctr_6.jpg"]
+        "covers": ["tpctr_1.jpg", "tpctr_2.jpg"]
+    }, 
+
+    {
+        "title": "Exposing Youtube Rabbit Holes",
+        "year": "2022",
+        "type": "data scrapping and information design",
+        "covers": ["eyrh_1.jpg"]
     }
 
 ];
