@@ -122,7 +122,40 @@ a:hover {
   content: url(images/profile.jpg);
   display:inline;
   max-width: 20%;
+  @media (max-width: 1111px) {
+    max-width: 50%;
+   }
 }
+
+#middle {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 1px;
+  }
+  
+  #middle a {
+    font-family: "UnicaR";
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  #credit{
+    display: none;
+    max-width: 60%;
+    text-transform: lowercase;
+    @media (max-width: 1111px) {
+      max-width: 80%;
+     }
+  }
+  
+  #starr:hover + #credit {
+    display: unset;
+  }
 
 /*shuffle*/
 #shuffle {
@@ -139,6 +172,8 @@ a:hover {
 /* utilities */
 .col-33 {
   width: 33%;
+  display: flex;
+  justify-content: left;
   @media (max-width: 1111px) {
     width: 50%;
   }
