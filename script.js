@@ -42,14 +42,14 @@ let projects = [
         "year": "2022",
         "type": "data scrapping and information design",
         "covers": ["eyrh_1.jpg"]
-    }/*, 
+    }, 
 
     {
-        "title": "Focus Open Floor Event",
+        "title": "Keep the Conversation Going",
         "year": "2025",
-        "type": "poster design",
-        "covers": ["fofe_1.jpg"]
-    }*/
+        "type": "postcard design",
+        "covers": ["DSC03149.jpg", "DSC03132.jpg"]
+    }
 
 ];
 
