@@ -65,7 +65,7 @@ h1 {
   font-size: 14.25px;
   line-height: 16.75px;
   max-width: 100%;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
     font-size: 15.5px;
     line-height: 18.75px;
   }
@@ -88,7 +88,7 @@ h3 {
   font-family: "LB";
   font-size: 14.25px;
   line-height: 16.75px;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
   width: 100%;
   font-size: 15.5px;
   line-height: 18.75px;
@@ -123,7 +123,7 @@ a:hover {
   content: url(images/profile.jpg);
   display:inline;
   max-width: 20%;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
     max-width: 50%;
    }
 }
@@ -149,7 +149,7 @@ a:hover {
     display: none;
     max-width: 60%;
     text-transform: lowercase;
-    @media (max-width: 1111px) {
+    @media (max-width: 1380px) {
       max-width: 80%;
      }
   }
@@ -175,7 +175,7 @@ a:hover {
   width: 33%;
   display: flex;
   justify-content: left;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
     width: 50%;
   }
 }
@@ -184,7 +184,7 @@ a:hover {
   width: 66%;
   display: flex;
   justify-content: center;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
     width: 100%;
     padding-top: 16px;
   }
@@ -194,7 +194,7 @@ a:hover {
   width: 66%;
   display: flex;
   justify-content: center;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
     justify-content: right;
   }
 }
@@ -205,7 +205,7 @@ a:hover {
 
 .col-100 {
   width: 100%;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
     width: 20%;
   }
 }
@@ -232,7 +232,7 @@ a:hover {
   display: flex;
   gap: 8px;
   padding: 16px;
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
     width: 80%;
   }
 }
@@ -295,7 +295,7 @@ a:hover {
   bottom: 0;
   padding-bottom: 16px;
   /*border: 3px solid green;*/
-  @media (max-width: 1111px) {
+  @media (max-width: 1380px) {
   display: flex;
   flex-direction: column-reverse;
   }
