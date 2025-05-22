@@ -55,7 +55,7 @@ let projects = [
         "title": "Institutional Participation Council Campaign",
         "year": "2025",
         "type": "visual identity and poster design",
-        "covers": ["5.png", "i.png"]
+        "covers": ["ipc_1.jpg", "ipc_2.png"]
     }
 
 ];
