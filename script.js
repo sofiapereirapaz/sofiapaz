@@ -13,7 +13,7 @@ let projects = [
         "title": "Some Kind of Place",
         "year": "2024",
         "type": "writing and editorial design",
-        "covers": ["skopb_5.jpg", /*"skopb_6.jpg",*/ "skopb_8.jpg", "skopb_11.jpg"]
+        "covers": ["skopb_5.jpg", "skopb_8.jpg", "skopb_11.jpg"]
     },
 
     {
