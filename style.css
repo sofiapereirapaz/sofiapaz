@@ -30,7 +30,7 @@
 html {
   overflow-x: hidden;
   overflow-y: hidden;
-  @media (max-width: 700px) {
+  @media (max-width: 1048px) {
     overflow-y: scroll;
   }
 }
@@ -53,7 +53,7 @@ main {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  @media (max-width: 700px) {
+  @media (max-width: 1048px) {
     display: block;
     width: 100%;
   }
@@ -240,7 +240,7 @@ a:hover {
 #roomUL {
   border-right: 1px solid #f8f8f8;
   border-bottom: 1px solid #f8f8f8;
-  @media (max-width: 700px) {
+  @media (max-width: 1048px) {
     display: none;
   }
 }
@@ -248,7 +248,7 @@ a:hover {
 #roomUR {
   border-left: 1px solid #f8f8f8;
   border-bottom: 1px solid #f8f8f8;
-  @media (max-width: 700px) {
+  @media (max-width: 1048px) {
     display: none;
   }
 }
@@ -256,7 +256,7 @@ a:hover {
 #roomDL {
   border-right: 1px solid #f8f8f8;
   border-top: 1px solid #f8f8f8;
-  @media (max-width: 700px) {
+  @media (max-width: 1048px) {
     width: 100%;
     border: none;
     border-bottom: 1px solid #f8f8f8;
@@ -266,7 +266,7 @@ a:hover {
 #roomDR {
   border-left: 1px solid #f8f8f8;
   border-top: 1px solid #f8f8f8;
-  @media (max-width: 700px) {
+  @media (max-width: 1048px) {
     width: 100%;
     border: none;
   }
