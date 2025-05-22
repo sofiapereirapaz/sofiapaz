@@ -27,15 +27,15 @@ let projects = [
         "title": "Some Kind of Place",
         "year": "2024",
         "type": "essay film",
-        "covers": ["skopv_1.jpg", "skopv_2.jpg", "skopv_3.jpg", "skopv_4.jpg"]
+        "covers": ["skopv_2.jpg", "skopv_3.jpg", "skopv_4.jpg"]
     },
 
-    {
+   /* {
         "title": "The Perfect Condition to Rot",
         "year": "2023",
         "type": "film essay",
         "covers": ["tpctr_1.jpg"]
-    }, 
+    }, */
 
     {
         "title": "Exposing Youtube Rabbit Holes",
@@ -49,6 +49,13 @@ let projects = [
         "year": "2025",
         "type": "postcard design",
         "covers": ["DSC03149.jpg", "DSC03132.jpg"]
+    },
+
+        {
+        "title": "Institutional Participation Council Campaign",
+        "year": "2025",
+        "type": "visual identity and poster design",
+        "covers": ["5.png", "i.png"]
     }
 
 ];
